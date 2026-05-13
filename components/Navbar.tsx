@@ -1,3 +1,22 @@
+const navItems = [
+  {
+    label: "Experience",
+    href: "#experience",
+  },
+  {
+    label: "Education",
+    href: "#education",
+  },
+  {
+    label: "Impact",
+    href: "#impact",
+  },
+  {
+    label: "Contact",
+    href: "#contact",
+  },
+];
+
 export default function Navbar() {
   return (
     <header className="fixed top-0 z-50 w-full border-b border-white/10 bg-black/30 backdrop-blur-md">
@@ -8,14 +27,22 @@ export default function Navbar() {
           </p>
         </div>
 
-        <nav className="hidden gap-10 md:flex">
-          {["Experience", "Education", "Impact", "Contact"].map((item) => (
+        <nav className="hidden items-center gap-10 md:flex">
+          {navItems.map((item) => (
             <a
-              key={item}
-              href="#"
-              className="text-sm uppercase tracking-[0.25em] text-white/70 transition hover:text-orange-400"
+              key={item.label}
+              href={item.href}
+              className="
+                text-sm
+                uppercase
+                tracking-[0.25em]
+                text-white/70
+                transition
+                duration-300
+                hover:text-orange-400
+              "
             >
-              {item}
+              {item.label}
             </a>
           ))}
         </nav>

@@ -49,3 +49,7 @@ body::before {
   font-family: "Bebas Neue", sans-serif;
   letter-spacing: 0.08em;
 }
+
+html {
+  scroll-behavior: smooth;
+}
