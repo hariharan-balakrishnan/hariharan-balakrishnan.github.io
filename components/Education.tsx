@@ -7,7 +7,7 @@ export default function Education() {
   return (
     <section
       id="education"
-      className="relative overflow-hidden px-6 py-32"
+      className="relative px-6 py-32"
     >
       {/* Background Accent */}
       <div className="absolute inset-0 opacity-[0.03]">

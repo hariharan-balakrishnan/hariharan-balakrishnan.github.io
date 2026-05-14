@@ -3,6 +3,7 @@ import Navbar from "@/components/Navbar";
 import Education from "@/components/Education";
 import Experience from "@/components/Experience";
 import Impact from "@/components/Impact";
+import Contact from "@/components/Contact";
 
 export default function Home() {
   return (
@@ -12,6 +13,7 @@ export default function Home() {
       <Experience />
       <Education />
       <Impact />
+      <Contact />
     </main>
   );
 }

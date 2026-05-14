@@ -2,7 +2,7 @@ import Image from "next/image";
 
 export default function Hero() {
   return (
-    <section className="relative flex min-h-screen items-center overflow-hidden px-4 pt-24 sm:px-6 lg:px-8 lg:pt-32">
+    <section className="relative flex min-h-screen items-center px-4 pt-24 sm:px-6 lg:px-8 lg:pt-32">
       
       {/* Atmospheric Background */}
       <div className="absolute inset-0 bg-[radial-gradient(circle_at_top,rgba(255,255,255,0.06),transparent_35%)]" />
@@ -26,7 +26,7 @@ export default function Hero() {
             <div className="absolute inset-0 scale-110 rounded-full bg-orange-500/10 blur-3xl" />
 
             {/* Image Card */}
-            <div className="relative overflow-hidden">
+            <div className="relative">
               <Image
                 src="/images/hero.png"
                 alt="Hariharan Balakrishnan"

@@ -34,7 +34,7 @@ export default function Impact() {
   return (
     <section
       id="impact"
-      className="relative overflow-hidden px-6 py-32"
+      className="relative px-6 py-32"
     >
       {/* Background Grid */}
       <div className="absolute inset-0 opacity-[0.03]">
@@ -66,7 +66,6 @@ export default function Impact() {
               className="
                 group
                 relative
-                overflow-hidden
                 border
                 border-white/10
                 bg-white/[0.02]

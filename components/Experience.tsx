@@ -31,7 +31,7 @@ export default function Experience() {
   return (
     <section
       id="experience"
-      className="relative overflow-hidden px-6 py-32"
+      className="relative px-6 py-32"
     >
       {/* Background Texture */}
       <div className="absolute inset-0 opacity-[0.03]">
